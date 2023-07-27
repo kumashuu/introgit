@@ -1,0 +1,185 @@
+@charset "UTF-8";
+#header .header {
+  width: 1512px;
+  height: 95px;
+  background-color: black;
+  flex-direction: row;
+}
+#header .header-left {
+  width: 76.7%;
+  height: 100%;
+  justify-content: center;
+  align-items: start;
+}
+#header .header-left img {
+  width: 120px;
+  height: 36px;
+  padding-left: 20%;
+}
+#header .header-right {
+  width: 23.4%;
+  height: 95px;
+  background: linear-gradient(to right, #3A3A3A, #242424);
+  max-width: 100%;
+  align-items: center;
+}
+#header .header-right a {
+  color: #fff;
+  line-height: 4.78;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+}
+#header .header-right a span {
+  letter-spacing: -1.4px;
+  margin-right: 12px;
+}
+
+#section1 {
+  width: 1512px;
+}
+#section1 .sec1-container {
+  width: 100%;
+  background-color: #272727;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #fff;
+}
+#section1 .sec1-container .msg {
+  width: 14.748%;
+  height: 710px;
+  z-index: 32;
+}
+#section1 .sec1-container .msg h2 {
+  width: 25px;
+  text-orientation: upright; /* 文字の向き（垂直） */
+  white-space: nowrap; /* テキストを折り返さないようにする */
+  writing-mode: vertical-rl; /* 縦書きの方向（右から左） */
+  color: #fff;
+  position: relative;
+  top: 384px;
+  left: 57px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+#section1 .sec1-container .msg span {
+  position: absolute;
+  top: 599px;
+  left: 157px;
+  color: #fff;
+  letter-spacing: -1px;
+  transform: rotate(90deg);
+}
+#section1 .sec1-container .msg p {
+  width: 187px;
+  position: absolute;
+  top: 641px;
+  left: 80px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+#section1 .sec1-container .sec1-container:nth-child(2) {
+  align-self: flex-start;
+  order: 2;
+}
+#section1 .sec1-container .img {
+  width: 85.252%;
+  height: 710px;
+  z-index: 2;
+}
+#section1 .sec1-container .sec1-container:nth-child(3) {
+  align-self: flex-end;
+  order: 3;
+}
+#section1 .sec1-container .info {
+  width: 63%;
+  height: 175px;
+  border-right: #fff 1px solid;
+}
+#section1 .sec1-container .info P {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  margin-top: 56px;
+  position: relative;
+  right: 246px;
+  font-family: Karla;
+}
+#section1 .sec1-container .info P span {
+  letter-spacing: -1px;
+  margin-right: 12px;
+}
+#section1 .sec1-container .info a {
+  font-size: 14px;
+  font-weight: 400;
+  color: #Fff;
+  letter-spacing: 0.6px;
+  position: relative;
+  right: 14px;
+  top: 9.5px;
+}
+
+#section2 {
+  width: 1512px;
+  height: 800px;
+  border-bottom: 1px solid #ffffff;
+}
+#section2 .sec2-container {
+  width: 100%;
+  height: 100%;
+  background-color: #272727;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#section2 .sec2-container .sec2-container:nth-child(2) {
+  align-self: flex-start;
+  order: 1;
+}
+#section2 .sec2-container .sec2-msg {
+  width: 50%;
+  height: 280px;
+  left: 180px;
+  z-index: 3;
+  color: #FFF;
+}
+#section2 .sec2-container .sec2-msg p {
+  margin-top: 50px;
+}
+#section2 .sec2-container .sec2-container:nth-child(2) {
+  align-self: flex-start;
+  order: 2;
+}
+#section2 .sec2-container .sec2-img {
+  width: 40%;
+  left: 200px;
+}
+#section2 .sec2-container .sec2-container:nth-child(3) {
+  align-self: flex-end;
+  order: 3;
+}
+#section2 .sec2-container .sec2-text {
+  width: 75%;
+  height: 330px;
+  left: 300px;
+  bottom: 100px;
+  z-index: 2;
+}
+#section2 .sec2-container .sec2-text h2 {
+  font-size: 34px;
+}
+
+#section3 {
+  width: 1512px;
+  height: 900px;
+}
+#section3 .sec3-container {
+  width: 100%;
+  height: 900px;
+  background-color: #272727;
+}
+#section3 .sec3-container .sec3-img {
+  width: 1100px;
+  height: 250px;
+  background: linear-gradient(90deg, #272727 0%, #555342 60%, #785947 61%, #475578 70%, #444444 100%);
+}/*# sourceMappingURL=style.css.map */

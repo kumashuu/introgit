@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../React"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js_cssフロント入門"
+	}
+}
