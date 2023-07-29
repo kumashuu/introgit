@@ -127,6 +127,7 @@
   width: 1512px;
   height: 800px;
   border-bottom: 1px solid #dfdfdf;
+  overflow: hidden;
 }
 #section2 .sec2-container {
   width: 100%;
@@ -220,8 +221,8 @@
 }
 #section3 .sec3-container .sec3-main div img {
   width: 70%;
-  height: 40%;
-  margin-top: 15%;
+  height: 35%;
+  margin-top: 20%;
 }
 #section3 .sec3-container .sec3-main div p {
   margin-top: 20%;
