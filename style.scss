@@ -216,11 +216,12 @@
         background-color: #272727;
 
         .sec3-img{
-            width: 1100px;
-            height: 250px;
-            background: linear-gradient(90deg, #272727 0%, #555342 60%, #785947 61%, #475578 70%, #444444 100%);
-
-           
+            // padding-top: 30%;
+            width: 900px;
+            height: 367px;
+            background: linear-gradient(136deg, #272727 0%, rgba(85, 83, 66, 0.77) 27.10%, rgba(120, 89, 71, 0.38) 45.34%, rgba(71, 85, 120, 0.31) 66.43%, #444 100%);
+            justify-content: flex-start;
+            align-items: flex-start;
         }
     }
 }
