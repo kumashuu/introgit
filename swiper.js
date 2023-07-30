@@ -13,6 +13,7 @@ let mySwiper = new Swiper (".swiper", {
     },
   
     //ナビゲーションボタン（矢印）表示の設定
+    navigation:true,
     navigation: {
       nextEl: ".swiper-button-next", //「次へボタン」要素の指定
       prevEl: ".swiper-button-prev", //「前へボタン」要素の指定

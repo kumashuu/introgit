@@ -313,11 +313,13 @@
             width: 80%;
             height: 700px;
             top: 15%;
+            // display: block;
           
 
             &-wrapper{
                 width: 90%;
                 height: 700px;
+                flex-direction: row;
                 // border: chartreuse 2px solid;
 
                 img{
@@ -326,6 +328,10 @@
                 }
 
                 
+            }
+
+            &-pagenation{
+                flex-direction: row;
             }
 
            
