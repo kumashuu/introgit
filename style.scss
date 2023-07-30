@@ -299,3 +299,39 @@
         }
     }
 }
+
+#section4{
+    width: 1512px;
+    height: 1076px;
+
+    .sec4-container{
+        width: 100%;
+        height: 1076px;
+        background: #272727;
+
+        .swiper{
+            width: 80%;
+            height: 700px;
+            top: 15%;
+          
+
+            &-wrapper{
+                width: 90%;
+                height: 700px;
+                // border: chartreuse 2px solid;
+
+                img{
+                    width: 100%;
+                    height: 700px;
+                }
+
+                
+            }
+
+           
+
+
+         
+        }
+    }
+}
