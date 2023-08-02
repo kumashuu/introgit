@@ -283,7 +283,7 @@
   height: 34%;
   left: 60%;
   bottom: 85%;
-  white-space: nowrap; /* 文字列を折り返さない */
+  white-space: nowrap;
   overflow: hidden;
   color: #FFFBD4;
   font-family: Karla;
@@ -296,6 +296,27 @@
   font-size: 50px;
   letter-spacing: -3px;
 }
+#section4 .sec4-container .swiper-wrapper .line {
+  letter-spacing: -1px;
+  z-index: 3;
+  transform: rotate(90deg);
+  position: relative;
+  right: 13%;
+  bottom: 135%;
+  left: -14%;
+  color: #ffffff;
+}
 #section4 .sec4-container .swiper-pagenation {
   flex-direction: row;
+}
+
+#section5 {
+  width: 1512px;
+  height: 700px;
+  margin: 0 auto;
+}
+#section5 .sec5-container {
+  width: 100%;
+  height: 700px;
+  background: #272727;
 }/*# sourceMappingURL=style.css.map */

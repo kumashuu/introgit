@@ -322,6 +322,8 @@
                 width: 100%;
                 height: 900px;
                 flex-direction: row;
+                
+             
 
                 img {
                     width: 100%;
@@ -353,7 +355,7 @@
                     height: 34%;
                     left: 60%;
                     bottom: 85%;
-                    white-space: nowrap; /* 文字列を折り返さない */
+                    white-space: nowrap;
                     overflow: hidden; 
                     color: #FFFBD4;
                     font-family: Karla;
@@ -367,11 +369,35 @@
                         letter-spacing: -3px;
                     }
                 }
+                // 縦の線
+                .line{
+                    letter-spacing: -1px;
+                    z-index: 3;
+                    transform: rotate(90deg);
+                    position: relative;
+                    right: 13%;
+                    bottom: 135%;
+                    left: -14%;
+                    color: #ffffff;
+
+                }
             }
 
             &-pagenation {
                 flex-direction: row;
             }
         }
+    }
+}
+
+#section5{
+    width: 1512px;
+    height: 700px;
+    margin: 0 auto;
+
+    .sec5-container{
+        width: 100%;
+        height: 700px;
+        background: #272727;
     }
 }
