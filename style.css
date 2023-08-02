@@ -244,21 +244,57 @@
 #section4 .sec4-container {
   width: 100%;
   height: 1076px;
-  background: #242020;
+  background: #272727;
 }
 #section4 .sec4-container .swiper {
-  width: 80%;
-  height: 700px;
-  top: 15%;
+  width: 100%;
+  height: 900px;
+  margin-top: 150px;
 }
 #section4 .sec4-container .swiper-wrapper {
-  width: 90%;
-  height: 700px;
+  width: 100%;
+  height: 900px;
   flex-direction: row;
 }
 #section4 .sec4-container .swiper-wrapper img {
   width: 100%;
-  height: 700px;
+  height: 900px;
+  margin: 0 auto;
+}
+#section4 .sec4-container .swiper-wrapper .slide-text {
+  width: 46%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fbfbfb;
+  border-radius: 5px;
+  bottom: 65%;
+  left: 10%;
+  align-items: start;
+}
+#section4 .sec4-container .swiper-wrapper .slide-text h2 {
+  font-size: 70px;
+}
+#section4 .sec4-container .swiper-wrapper .slide-text p {
+  margin-top: 5px;
+  font-size: 14px;
+}
+#section4 .sec4-container .swiper-wrapper .item-name {
+  width: 40%;
+  height: 34%;
+  left: 60%;
+  bottom: 85%;
+  white-space: nowrap; /* 文字列を折り返さない */
+  overflow: hidden;
+  color: #FFFBD4;
+  font-family: Karla;
+  font-size: 87.539px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80px;
+}
+#section4 .sec4-container .swiper-wrapper .item-name span {
+  font-size: 50px;
+  letter-spacing: -3px;
 }
 #section4 .sec4-container .swiper-pagenation {
   flex-direction: row;
