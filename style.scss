@@ -315,7 +315,7 @@
         .swiper {
             width: 100%;
             height: 900px;
-            margin-top: 150px;
+            margin-top: 190px;
             
 
             &-wrapper {
@@ -394,34 +394,87 @@
     width: 1512px;
     height: 795px;
     margin: 0 auto;
+    padding: 150px 0;
+    background: #272727;
+
 
     .sec5-container{
         width: 100%;
-        height: 700px;
-        background: #272727;
+        height: 795px;
         flex-direction: row;
 
         .sec5-left{
-            width: 40%;
+            width: 46%;
             flex-direction: row;
 
             .img1{
-                top: 120px;
+                width: 100%;
+                top: 100px;
             }
             .img2{
-                bottom: 90px;
-                left: 20px;
-            }
-        }
-        .sec5-right{
-            
-            .news{
                 width: 100%;
-                left: 50%;
+                bottom: 80px;
+                left: 50px;
+            }
+            
+              
+        }
+        .button-container{
+            width: 324px;
+            height: 324px;
+            border-radius: 324px;
+            backdrop-filter: blur(12px);
+            background: linear-gradient(222deg, rgba(174, 165, 165, 0.37) 0%, rgba(217, 217, 217, 0.04) 100%);
+            right: 500px;
+            bottom: 100px;
+            cursor: pointer;
+            color: #ffffff;
+            justify-content: center;
+        }
+        .content-button {
+            margin: 10px;
+            padding: 20px;
+            transition: transform 0.3s, font-size 0.3s;
+          }
+          
+          .content-button:hover {
+            transform: scale(2.3);
+            font-size: 36px;
+          }
+          
+          .text {
+            margin: 0;
+            font-size: 16px;
+            transition: font-size 0.3s;
+          }
+        .sec5-right{
+            .content {
+                width: 100%;
+                display: none;
+                padding: 20px;
+                color: #ffffff;
+              }
+              .content.active {
+                display: block;
+              }
+            .text{
+                width: 450px;
+                left: -50%;
                 align-items: flex-start;
                 color: #ffffff;
                 border-bottom: #FFF 0.7px solid;
+                letter-spacing: 1.6px;
                 margin-top: 40px;
+            }
+            .more{
+                
+                color: #ffffff;
+                font-size: 24px;
+                top: 50px;
+                right: 50px;
+                span{
+                    letter-spacing: -1.5px;
+                }
             }
         }
     }
