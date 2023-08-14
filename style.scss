@@ -479,3 +479,27 @@
         }
     }
 }
+
+#section6{
+    width: 1512px;
+    height: 819px;
+    padding: 100px 0;
+    background-color: #272727;
+    margin: 0 auto;
+
+    .sec6-container{
+        width: 1512px;
+        height: 650px;
+
+        .instagram{
+            border-bottom: 1px solid white;
+            border-top: 1px solid white;
+
+            width: 70%;
+            height: 800px;
+            flex-direction: row;
+            justify-content: space-around;
+
+        }
+    }
+}
